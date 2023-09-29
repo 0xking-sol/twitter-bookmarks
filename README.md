@@ -30,6 +30,7 @@ This script allows you to fetch and clean your Twitter bookmarks, extracting onl
    - `csrfToken`: This is a token used by Twitter for cross-site request forgery protection. It can also be found in the headers of any API request made on the Twitter website.
      
         Copy the csrf token variable:
+     
      ![image](https://github.com/0xking-sol/twitter-bookmarks/assets/124360861/2af9e084-48de-4392-ac6d-9f38cd072153)
 
    
