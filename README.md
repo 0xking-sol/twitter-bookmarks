@@ -36,6 +36,11 @@ This script allows you to fetch and clean your Twitter bookmarks, extracting onl
    
    - `url`: This is the endpoint URL for the API call. Typically, for fetching bookmarks, it would be something like: `'https://api.twitter.com/2/timeline/bookmark_timeline.json'`.
    - `features`: A string that represents additional features or configurations for the request. It's often a comma-separated list of values, but you'll need to capture the exact string from a live request to the Twitter API.
+  
+       copy all of the features
+  
+        ![image](https://github.com/0xking-sol/twitter-bookmarks/assets/124360861/88d2a757-178e-448b-9f8f-9c15881aba5f)
+
 
 6. **Extract and Save Data**: 
    Once the data is fetched, it will be stored in the `results` variable (or whatever variable name you choose). You can copy the bookmarks which will be in json format.
