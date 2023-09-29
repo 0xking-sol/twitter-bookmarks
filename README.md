@@ -23,6 +23,10 @@ This script allows you to fetch and clean your Twitter bookmarks, extracting onl
 
    Where:
    - `bearerToken`: This is the Bearer token associated with Twitter's API requests. You can find it in the headers of any API request made on the Twitter website. Look for a header that starts with "Bearer" followed by a long string.
+      Copy everything after bearer:
+         ![image](https://github.com/0xking-sol/twitter-bookmarks/assets/124360861/0ba42731-1f97-4466-b9bd-9de1116746e1)
+
+     
    - `csrfToken`: This is a token used by Twitter for cross-site request forgery protection. It can also be found in the headers of any API request made on the Twitter website.
    - `url`: This is the endpoint URL for the API call. Typically, for fetching bookmarks, it would be something like: `'https://api.twitter.com/2/timeline/bookmark_timeline.json'`.
    - `features`: A string that represents additional features or configurations for the request. It's often a comma-separated list of values, but you'll need to capture the exact string from a live request to the Twitter API.
