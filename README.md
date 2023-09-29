@@ -38,10 +38,11 @@ This script allows you to fetch and clean your Twitter bookmarks, extracting onl
   
         Copy up to the question mark:
            ![image](https://github.com/0xking-sol/twitter-bookmarks/assets/124360861/346968b0-94c5-4543-8ef7-4e0907b46784)
+     
 
    - `features`: A string that represents additional features or configurations for the request. It's often a comma-separated list of values, but you'll need to capture the exact string from a live request to the Twitter API.
   
-       copy all of the features:
+       copy all of the features (this is long):
         ![image](https://github.com/0xking-sol/twitter-bookmarks/assets/124360861/88d2a757-178e-448b-9f8f-9c15881aba5f)
 
 
