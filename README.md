@@ -28,10 +28,14 @@ This script allows you to fetch and clean your Twitter bookmarks, extracting onl
 
      
    - `csrfToken`: This is a token used by Twitter for cross-site request forgery protection. It can also be found in the headers of any API request made on the Twitter website.
+        Copy the csrf token variable:
+           ![image](https://github.com/0xking-sol/twitter-bookmarks/assets/124360861/2af9e084-48de-4392-ac6d-9f38cd072153)
+
+   
    - `url`: This is the endpoint URL for the API call. Typically, for fetching bookmarks, it would be something like: `'https://api.twitter.com/2/timeline/bookmark_timeline.json'`.
    - `features`: A string that represents additional features or configurations for the request. It's often a comma-separated list of values, but you'll need to capture the exact string from a live request to the Twitter API.
 
-5. **Extract and Save Data**: 
+6. **Extract and Save Data**: 
    Once the data is fetched, it will be stored in the `results` variable (or whatever variable name you choose). You can copy the bookmarks which will be in json format.
     
 <img width="753" alt="Screenshot 2023-09-29 at 12 44 18" src="https://github.com/0xking-sol/twitter-bookmarks/assets/124360861/afb70d5c-bf34-4c75-8e6e-f7c1de546cb9">
