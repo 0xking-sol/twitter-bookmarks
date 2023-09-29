@@ -30,7 +30,7 @@ This script allows you to fetch and clean your Twitter bookmarks, extracting onl
 5. **Extract and Save Data**: 
    Once the data is fetched, it will be stored in the `results` variable (or whatever variable name you choose). You can copy the bookmarks which will be in json format.
     
-<img width="733" alt="Screenshot 2023-09-29 at 12 41 47" src="https://github.com/0xking-sol/twitter-bookmarks/assets/124360861/d48a1217-1bbc-4cf5-b13c-30362cfb54a7">
+<img width="753" alt="Screenshot 2023-09-29 at 12 44 18" src="https://github.com/0xking-sol/twitter-bookmarks/assets/124360861/afb70d5c-bf34-4c75-8e6e-f7c1de546cb9">
 
 ## Function Details
 
